@@ -1,4 +1,5 @@
 from tkinter import *
+#값을 입력 받는 곳
 root = Tk()
 root.title()
 
