@@ -24,7 +24,7 @@ def time_(Year,Month,Day,Hour=0,Minute=0) :#시간을 입력 받고 한번에 �
     return Time.append(datetime.datetime(Year,Month,Day,Hour,Minute))#Time 리스트에 입력받은 시간을 저장
 def Name_(name) :
     return Name.append(PutName)
-def Importance_(Importance) :
+def Importance_(importance) :
     return Importance.append(PutImportance)
 
 
