@@ -5,12 +5,12 @@ window1=tkinter.Tk()#메인부분
 
 window1.title("일정관리 프로그램(가칭)")
 window1.geometry("400x800-0+0")
-window1.resizable(False,False)
+window1.resizable(False,False)#크기 조정 불가능
 
 
 
 
-window1.mainloop()
+window1.mainloop()#메인부분 끝
 
 window2=tkinter.Tk()#입력 창 부분
 window2.title("일정 추가")
@@ -23,9 +23,9 @@ nameLabel.pack()
 
 
 
-window2.mainloop()
+window2.mainloop()#입력창 부분 끝
 
 
 window3=tkinter.Tk()#설정부분
 window3.title("설정")
-window3.mainloop()
+window3.mainloop()#설정부분 끝
