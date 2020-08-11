@@ -13,8 +13,8 @@ window1.resizable(False,False)
 window1.mainloop()
 
 window2=tkinter.Tk()#입력 창 부분
+window2.title("일정 추가")
 
-window2.title("설정")
 
 
 
@@ -27,4 +27,5 @@ window2.mainloop()
 
 
 window3=tkinter.Tk()#설정부분
+window3.title("설정")
 window3.mainloop()
