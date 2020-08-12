@@ -5,8 +5,8 @@ def MakeFolder(Path):
         pass
     else :
         mkdir('./'+ Path)
-def DeleteFolder(Path)
-    if path.exists(Path)
+def DeleteFolder(Path):
+    if path.exists(Path):
         remove("./"+Path)
     else:
         pass
