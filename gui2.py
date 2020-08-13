@@ -18,5 +18,4 @@ ImportanceLabel.pack()
 
 
 
-
 window2.mainloop()#입력창 부분 끝

@@ -4,6 +4,7 @@ import folder #폴더를 만들거나 삭제 할때 사용
 window1=tkinter.Tk()#메인부분
 
 
+
 window1.title("일정관리 프로그램(가칭)")
 window1.geometry("400x800-0+0")
 window1.resizable(False,False)#크기 조정 불가능
