@@ -1,5 +1,6 @@
-import tkinter
-import FuncAdd as F#FuncAdd 모듈을 F로도 호출할 수 있음 예) F.Time_()
+import tkinter  #gui 구현위해서
+import FuncAdd #데이터 추가 관련 함수
+import folder #폴더를 만들거나 삭제 할때 사용
 window1=tkinter.Tk()#메인부분
 
 
@@ -20,6 +21,15 @@ window2.title("일정 추가")
 
 nameLabel=tkinter.Label(window2, text="이름")
 nameLabel.pack()
+YearLabel=tkinter.Label(window2, text="연도")
+YearLabel.pack()
+MonthLabel=tkinter.Label(window2, text="월")
+MonthLabel.pack()
+DayLabel=tkinter.Label(window2, text="일")
+DayLabel.pack()
+ImportanceLabel=tkinter.Label(window2, text="중요도")
+ImportanceLabel.pack()
+
 
 
 
