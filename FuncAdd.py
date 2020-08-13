@@ -1,10 +1,18 @@
 #데이터를 추가하고 그 데이터를 저장하는 함수의 모음
 
+
+#임포트 부분
 import datetime #시간저장을 위해서 임포트함
 import pickle   #입력 받은 데이터를 프로그램 종료 후에도 저장을 위해서 임포트
+
+
+#변수 부분
 Time=[]    #입력받은 시간을 저장할 리스트
 Name=[]    #입력받은 이름을 저장할 리스트
 Importance = []    #중요도를 저장하는 리스트(체크박스로 입력받을 예정)
+
+
+#함수 부분
 def Time_(Year,Month,Day,Hour=0,Minute=0) :#시간을 입력받게 만듦 
     global Time
     try:
