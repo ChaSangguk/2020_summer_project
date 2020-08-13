@@ -1,7 +1,9 @@
 import tkinter
 window2=tkinter.Tk()#입력 창 부분
-window2.title("일정 추가")
 
+
+window2.title("일정 추가")
+window2.resizable(False,False)#크기 조정 불가능
 
 
 
