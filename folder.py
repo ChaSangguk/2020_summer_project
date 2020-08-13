@@ -1,5 +1,5 @@
 from os import mkdir,path,remove
-
+#메인화면
 def MakeFolder(Path):
     if path.exists(Path):
         pass
