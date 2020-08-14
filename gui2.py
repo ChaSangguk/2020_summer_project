@@ -1,4 +1,6 @@
 import tkinter
+import FuncAdd #데이터 추가 관련 함수
+
 window2=tkinter.Tk()#입력 창 부분
 
 
@@ -18,6 +20,9 @@ DayLabel.pack()
 ImportanceLabel=tkinter.Label(window2, text="중요도")
 ImportanceLabel.pack()
 
-
+AddButton=tkinter.Button(window2,text="확인",command="")
+AddButton.pack()
+CancelButton=tkinter.Button(window2,text="취소",command="")
+CancelButton.pack()
 
 window2.mainloop()#입력창 부분 끝

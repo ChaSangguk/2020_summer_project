@@ -35,3 +35,7 @@ def Importance_(importance) :
     Importance.append(importance)
     with open("importance.pickle","wb") as ImportanceData:
         pickle.dump(Importance,ImportanceData)#입력받은 시간값을 외부 파일에 저장
+def AddData(name,importance,Year,Month,Day,Hour=0,Minute=0):
+    Time_(Year,Month,Day,Hour,Minute)
+    Name_(name)
+    Importance_(importance)

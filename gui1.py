@@ -1,5 +1,4 @@
 import tkinter  #gui 구현위해서
-import FuncAdd #데이터 추가 관련 함수
 import folder #폴더를 만들거나 삭제 할때 사용
 window1=tkinter.Tk()#메인부분
 
