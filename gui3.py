@@ -1,4 +1,5 @@
 import tkinter
+from tkinter import ttk
 window3=tkinter.Tk()#설정부분
 
 
